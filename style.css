@@ -5,13 +5,23 @@
     border-radius: 10px;
     text-align: center;
 
-    animation-name: fontAnimation;
+    animation-name: widthAnimation;
     animation-duration: 3s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
     animation-iteration-count: 3;
-    animation-direction: normal;
+    animation-direction: alternate;
 }
+
+@keyframes widthAnimation {
+    from {
+        width: 20px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
 
 @keyframes fontAnimation {
     from {
@@ -19,5 +29,14 @@
     }
     to {
         font-size: 60px;
+    }
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: azure;
+    }
+    to {
+        background-color: rgb(63, 75, 39);
     }
 }
