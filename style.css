@@ -7,8 +7,17 @@
 
     animation-name: fontAnimation;
     animation-duration: 3s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 2s;
     animation-iteration-count: 3;
     animation-direction: normal;
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 60px;
+    }
 }
