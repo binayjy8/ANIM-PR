@@ -13,3 +13,21 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (max-width: 400px) {
+    #animal {
+        flex-wrap: wrap;
+    }
+}
+
+h3 {
+    color: aquamarine;
+}
+
+span {
+    color: darkslategrey;
+}
+
+h2 {
+    color: olivedrab;
+}
