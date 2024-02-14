@@ -19,7 +19,7 @@
 
 .sidebar {
     grid-column: 1 / span 3;
-    grid-row: 3 / span 10;
+    grid-row: 3 / span 9;
 }
 
 .navigation {
